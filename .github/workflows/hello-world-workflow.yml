@@ -1,11 +1,11 @@
 name: github hello world docker work flow
 on: 
-
+  push
 jobs:
   job1:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions
+      - uses: actions/action
       
       
     
