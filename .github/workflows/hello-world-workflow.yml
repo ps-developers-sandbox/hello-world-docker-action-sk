@@ -5,7 +5,9 @@ jobs:
   job1:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/action
+      - uses: actions/hello-world-docker-action@main
+        with:
+          who-to-greet: 'world'
       
       
     
